@@ -64,5 +64,17 @@ public class MainActivity extends AppCompatActivity {
         numberQuotientTV.setText("" + quotient);
     }
 
+    public void findExponent(View view) {
+        EditText number1ET = findViewById(R.id.num1ET);
+        EditText number2ET = findViewById(R.id.num2ET);
+        TextView numberExponentTV = findViewById(R.id.resultTV);
+
+        int num1 = Integer.parseInt((number1ET.getText().toString()));
+        int num2 = Integer.parseInt((number2ET.getText().toString()));
+        int exponent = num1^num2;
+
+        numberExponentTV.setText("" + exponent);
+    }
+
 
 }

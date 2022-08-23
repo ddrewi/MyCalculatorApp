@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MyCalculatorApp</string>
+    <!-- https://code.tutsplus.com/tutorials/how-to-add-a-dropdown-menu-in-android-studio--cms-37860-->
+    <string-array name = "languages">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
 </resources>
