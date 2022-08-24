@@ -62,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
         double quotient = num1 / num2;
 
         numberQuotientTV.setText("" + quotient);
+
+        // try catch
     }
 
     public void findExponent(View view) {
