@@ -1,4 +1,32 @@
 <resources>
     <string name="app_name">Calm Calculator</string>
 
+
+   <!-- use strings.xml instead of hardcoding for better organization
+        and RAM usage -->
+    <!-- https://stackoverflow.com/questions/12634211/whats-wrong-with-hardcoded-string-in-android-xml-file -->
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+
+
+    <!-- https://usefulshortcuts.com/alt-codes/maths-alt-codes.php -->
+    <!-- use alt codes for prettier symbols -->
+
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="multiply">×</string>
+    <string name="divide">÷</string>
+
+    <string name="point">.</string>
+    <string name="equal">=</string>
+
 </resources>
