@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Calm Calculator</string>
+    <string name="app_name">Cloud Calculator</string>
 
 
    <!-- use strings.xml instead of hardcoding for better organization
